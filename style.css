@@ -18,6 +18,10 @@
     /* background: red; */
     font-family: 'Ubuntu', 'sans-serif';
 }
+.navbar.sticky{
+    padding: 30px 0;
+    background: crimson;
+}
 .navbar .max-width{
     display: flex;
     align-items: center;
