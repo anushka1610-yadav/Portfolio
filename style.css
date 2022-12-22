@@ -4,12 +4,11 @@ body{
     background-image: url(./Image/background.jpg);
 }
 .intro{
-    text-align:center;
-    padding: 150px;
-    padding-bottom: 50px;
+    text-align:left;
+    padding: 30px;
+    padding-top: 100px;
     margin: auto;
     color: white;
-    font-size: 50px;
 }
 .para{
     font-size: 20px;
@@ -22,4 +21,12 @@ body{
 .navbar-nav{ 
     padding: 5px;
 
+}
+.profile{
+    align-items: right;
+}
+
+#pic{
+    margin: 20px;
+    padding: 20px;
 }
