@@ -27,8 +27,9 @@ body{
 }
 
 #pic{
-    margin: 20px;
-    padding: 20px;
+    /* margin: 20px;
+    padding: 20px; */
+    width: 60%;
 }
 .container-fluid{
     padding: 1% 15%;
