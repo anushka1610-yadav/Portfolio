@@ -50,3 +50,17 @@ body{
 .ach{
     margin-top: 15%;
 }
+#project{
+    padding: 5%;
+    align-items: center;
+}
+.card-body{
+    background-color: rgb(52, 47, 47);
+}
+.card-title, .card-text{
+    color: white;
+}
+.code-btn{
+    /* margin-left: 25%; */
+    width: 100%;
+}
