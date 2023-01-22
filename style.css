@@ -29,6 +29,7 @@ body{
 #pic{
     /* margin: 20px;
     padding: 20px; */
+    margin: 5% 10%;
     width: 60%;
 }
 .container-fluid{
@@ -63,4 +64,7 @@ body{
 .code-btn{
     /* margin-left: 25%; */
     width: 100%;
+}
+.project-col{
+    padding: 3% 2%;
 }
