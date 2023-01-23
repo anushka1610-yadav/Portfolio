@@ -48,6 +48,13 @@ body{
     margin-top: 5%;
     text-decoration: underline;
 }
+.sub-heading{
+    color: white;
+    text-align: left;
+    /* margin-top: 5%; */
+    text-decoration: underline;
+    padding: 3%;
+}
 .ach{
     margin-top: 15%;
 }
@@ -71,8 +78,30 @@ body{
 }
 
 #Education{
-    padding: 5%;
-
+    padding: 1% 5%;
+}
+.skill-col{
+    margin: 1% 1%;
+}
+.skill-row{
+    margin : 3% 1%;
+}
+.skill-card{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 10%;
+}
+.skill-pic{
+    height: 100px;
+    width: 100px;
+    margin: 25px 50px;
+   
+}
+.skill-dis{
+    color: white;
+    text-align: center;
+    
 }
 
 @media (max-width: 900px)
