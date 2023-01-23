@@ -4,7 +4,7 @@ body{
     background-image: url(./Image/background.jpg);
 }
 .intro{
-    text-align:left;
+    /* text-align:left; */
     padding: 30px;
     padding-top: 100px;
     margin: auto;
@@ -52,8 +52,9 @@ body{
     margin-top: 15%;
 }
 #project{
-    padding: 5%;
-    align-items: center;
+    /* padding: 7% 5%; */
+    /* text-align: center; */
+    margin-left: 3%;
 }
 .card-body{
     background-color: rgb(52, 47, 47);
@@ -67,4 +68,22 @@ body{
 }
 .project-col{
     padding: 3% 2%;
+}
+
+#Education{
+    padding: 5%;
+
+}
+
+@media (max-width: 900px)
+{
+    #home{
+        text-align: center;
+        align-items: center;
+    }
+    .card{
+        text-align: center;
+        align-items: center;
+       /* margin-left: 25%; */
+    }
 }
