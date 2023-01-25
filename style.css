@@ -80,29 +80,21 @@ body{
 #Education{
     padding: 1% 5%;
 }
-.skill-col{
-    margin: 1% 1%;
-}
-.skill-row{
-    margin : 3% 1%;
-}
-.skill-card{
-    display: inline-block;
-    height: 200px;
-    width: 200px;
-    margin-bottom: 10%;
-}
-.skill-pic{
-    height: 100px;
-    width: 100px;
-    margin: 25px 50px;
-   
-}
-.skill-dis{
+
+.col-skill{
+    margin: 3% 3%;
+    height: 6rem;
+    width: 8rem;
     color: white;
-    text-align: center;
     
 }
+.row-skill{
+    margin-left: 5%;
+}
+.skill-pic{
+    margin: 4% 3%;
+}
+
 
 @media (max-width: 900px)
 {
