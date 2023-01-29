@@ -94,7 +94,9 @@ body{
 .skill-pic{
     margin: 4% 3%;
 }
-
+.skill-des{
+    margin-top: 4%;
+}
 
 @media (max-width: 900px)
 {
