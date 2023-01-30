@@ -97,15 +97,26 @@ body{
 .skill-des{
     margin-top: 4%;
 }
-
-
+.contact-row{
+    margin: 3% 5%;
+    
+    /* background: rgb(52, 47, 47); */
+}
+.card-bodyy{
+    /* padding: 5%; */
+    margin: 3% 5%;
+    justify-content: center;
+}
+.form-card{
+    display: inline-block;
+}
 
 form{
-    background: rgb(52, 47, 47);
     display: flex;
     flex-direction: column;
     padding: 2vw 4vw;
-    width: 80%;
+    width: 100%;
+    justify-content: center;
     /* max-width: 600px; */
     /* align-items: center;
     padding: %;
@@ -123,9 +134,14 @@ form input, form textarea, form button{
     background: rgb(52, 47, 47);
     font-size: 15px;
 }
-
-
-
+.connect-img{
+    /* padding: 5px; */
+    margin-right: 15px;
+}
+.connect{
+    margin: 3% 5%;
+    color: white;
+}
 
 @media (max-width: 900px)
 {
