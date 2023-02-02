@@ -10,6 +10,34 @@ body{
     margin: auto;
     color: white;
 }
+.dynamic-intro{
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+}
+
+.dynamic-intro li{
+    color: white;
+    list-style: none;
+}
+.dynamic-intro li span{
+    position: relative;
+}
+.dynamic-intro li span::after{
+    content: "";
+    position: absolute;
+    left:  0;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid white;
+    animation: typing 1.5s steps(12) infinite;
+}
+@keyframes typing {
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
 .para{
     font-size: 20px;
     color: white;
