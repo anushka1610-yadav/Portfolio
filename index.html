@@ -257,12 +257,13 @@
             <div class="card border-dark mb-3" style="max-width: 60%; display: inline; margin-top: 2%;">
               <!-- <div class="card-header">Header</div> -->
               <div class="card-bodyy">
-                  <form>
+                  <form action="https://formspree.io/f/mayzqvng"
+                  method="POST">
                     <h4 class="sub-heading">Send Message</h4>  
-                    <input type="text" id="name" class="border border-primary" placeholder="Your Name" required>
-                    <input type="email" id="email" class="border border-primary" placeholder="name@gmail.com" required>
-                    <input type="text" id="subject" class="border border-primary" placeholder="Subject" required>
-                    <textarea id="message" rows="4" class="border border-primary" placeholder="Message"></textarea> 
+                    <input type="text" id="name" name="name" class="border border-primary" placeholder="Your Name" autocomplete="off" required>
+                    <input type="email" id="email" name="email" class="border border-primary" placeholder="name@gmail.com" autocomplete="off" required>
+                    <input type="text" id="subject" name="subject" class="border border-primary" placeholder="Subject" autocomplete="off" required>
+                    <textarea id="message" rows="4" name="textarea" class="border border-primary" placeholder="Message" autocomplete="off" required></textarea> 
                     <button type="submit" class="btn btn-outline-light code-btn border border-primary">Send</button>
                   </form>
                 </div>
