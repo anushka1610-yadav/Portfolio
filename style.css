@@ -22,12 +22,53 @@ body{
     justify-content: center;
     color: white;
 }
+.dynamic-intro{
+    margin-left: 1%;
+    height: 90px;
+    line-height: 90px;
+    
+    overflow: hidden;
+}
+.dynamic-intro li{
+    color: #0081B4;
+    list-style: none;
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 6s steps(4) infinite;
+}
+@keyframes slide{
+    100%{
+        top: -360px;
+    }
+}
+.dynamic-intro li span{
+    position: relative;
+}
+.dynamic-intro li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    background: rgb(43, 43, 43);;
+    height: 200%;
+    width: 100%;
+    border-left: 2px solid #0081B4;
+    animation: typing 4.5s steps(19) infinite;
+}
+@keyframes typing{
+    100%{
+        left: 100%;
+        margin: 0 -50px 0 50px;
+    }
+}
 .para{
     font-size: 20px;
     color: white;
 }
 .navbar-brand{ 
     padding: 15px;
+    color: #0081B4;
 
 } 
 .navbar-nav{ 
@@ -53,7 +94,9 @@ body{
     padding: 1% 15%;
 }
 #down-btn{
-    margin-left: 30px;
+    margin-left: 40%;
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 #Achivement{
@@ -61,13 +104,13 @@ body{
     text-align: center;
 }
 .heading{
-    color: white;
+    color: #0081B4;
     text-align: center;
     margin-top: 5%;
     text-decoration: underline;
 }
 .sub-heading{
-    color: white;
+    color: #0081B4;
     text-align: left;
     text-decoration: underline;
     padding: 0% 3%;
